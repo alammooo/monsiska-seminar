@@ -9,6 +9,7 @@ const Navbar = () => {
         <div className="flex gap-5 capitalize">
           {navLinks.map((el, i) => (
             <Link
+              key={i}
               href={el.link}
               className="text-blue-950 hover:text-blue-500">
               {el.name}
