@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react"
 import Navbar from "../Navbar"
 import { Inter } from "next/font/google"
-import { LayoutProps } from "@/interface/LayoutProps"
+import { LayoutProps } from "@/interface/MainPageInterface/LayoutProps"
 
 const inter = Inter({ subsets: ["latin"] })
 
