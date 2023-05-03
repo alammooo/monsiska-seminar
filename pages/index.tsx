@@ -6,6 +6,8 @@ import Hero from "@/components/MainPage/Hero"
 import About from "@/components/MainPage/About"
 import Feature from "@/components/MainPage/Feature/Feature"
 import WorkProcess from "@/components/MainPage/WorkProcess/WorkProcess"
+import Portofolio from "@/components/MainPage/Portofolio/Portofolio"
+import NextProject from "@/components/MainPage/NextProject/NextProject"
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <About />
       <Feature />
       <WorkProcess />
+      <Portofolio />
+      <NextProject />
     </>
   )
 }
