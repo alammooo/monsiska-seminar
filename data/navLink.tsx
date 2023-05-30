@@ -24,8 +24,8 @@ export const navLinks = [
     link: "/",
   },
   {
-    name: "blog",
-    link: "/",
+    name: "akreditasi",
+    link: "/akreditasi",
   },
   {
     name: "contact us",

@@ -1,13 +1,16 @@
 import { ReactElement } from "react"
-import HomeLayout from "@/components/homeLayout/HomeLayout"
-import { navLinks } from "@/data/navLink"
-import Link from "next/link"
-import Hero from "@/components/MainPage/Hero"
-import About from "@/components/MainPage/About"
-import Feature from "@/components/MainPage/Feature/Feature"
-import WorkProcess from "@/components/MainPage/WorkProcess/WorkProcess"
-import Portofolio from "@/components/MainPage/Portofolio/Portofolio"
-import NextProject from "@/components/MainPage/NextProject/NextProject"
+import Hero from "@/components/main/Hero"
+import About from "@/components/main/About"
+import Feature from "@/components/main/Feature/Feature"
+import WorkProcess from "@/components/main/WorkProcess/WorkProcess"
+import Portofolio from "@/components/main/Portofolio/Portofolio"
+import NextProject from "@/components/main/NextProject/NextProject"
+import HomeLayout from "@/components/main/Layout/MainLayout"
+import PelatihanAkreditasi from "@/components/main/pelatihan-akreditasi/PelatihanAkreditasi"
+import MonsiskamiKonsultan from "@/components/main/monsiskami-konsultan/MonsiskamiKonsultan"
+import SistemInformasi from "@/components/main/sistem-informasi/SistemInformasi"
+import MonsiskamiPelatihan from "@/components/main/monsiskami-pelatihan/MonsiskamiPelatihan"
+import ThesisDisertasi from "@/components/main/thesis-disertasi/ThesisDisertasi"
 
 const Home = () => {
   return (
@@ -15,6 +18,11 @@ const Home = () => {
       <Hero />
       <About />
       <Feature />
+      <PelatihanAkreditasi />
+      <MonsiskamiKonsultan />
+      <SistemInformasi />
+      <MonsiskamiPelatihan />
+      <ThesisDisertasi />
       <WorkProcess />
       <Portofolio />
       <NextProject />

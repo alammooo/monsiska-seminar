@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react"
+import React from "react"
 import Navbar from "../Navbar"
 import { Inter } from "next/font/google"
 import { LayoutProps } from "@/interface/MainPageInterface/LayoutProps"
